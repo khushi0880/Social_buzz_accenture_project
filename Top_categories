@@ -1,0 +1,16 @@
+SELECT 
+  Content.Category,
+  SUM(Reaction_type.Score) AS Aggregate_score
+FROM 
+  `capstone-project-cyclists.content_creation.Reactions` AS Reactions
+JOIN
+  `capstone-project-cyclists.content_creation.Content` AS Content
+  ON Reactions.Content_ID = content.Content_ID 
+JOIN
+  `capstone-project-cyclists.content_creation.Reaction_type` AS Reaction_type
+  ON Reactions.Reaction_Type = Reaction_type.ReactionType
+GROUP BY
+  Content.Category
+ORDER BY
+  Aggregate_score DESC
+LIMIT 5
