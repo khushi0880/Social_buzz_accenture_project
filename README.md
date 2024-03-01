@@ -8,4 +8,30 @@ Social Buzz is a content creation platform. Social Buzz emphasizes content by ke
 ## Tool
 1. Excel- Data Cleaning
 2. SQL- Data Analysis
+## Explanatory Analysis
+```SQL
+SELECT 
+  Content.Category,
+  SUM(Reaction_type.Score) AS Aggregate_score
+FROM 
+  `capstone-project-cyclists.content_creation.Reactions` AS Reactions
+JOIN
+  `capstone-project-cyclists.content_creation.Content` AS Content
+  ON Reactions.Content_ID = content.Content_ID 
+JOIN
+  `capstone-project-cyclists.content_creation.Reaction_type` AS Reaction_type
+  ON Reactions.Reaction_Type = Reaction_type.ReactionType
+GROUP BY
+  Content.Category
+ORDER BY
+  Aggregate_score DESC
+LIMIT 5
+```
+## Result
+the top 5 categories with the largest aggregate popularity are-
+1. animals - 69548
+2. healthy eating - 69067
+3. technology - 68521
+4. science - 66549
+5. culture - 64952
 
