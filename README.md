@@ -2,8 +2,8 @@
 ### Scenario
 Social Buzz is a content creation platform. Social Buzz emphasizes content by keeping all users anonymous, only tracking user reactions on every piece of content. There are over 100 ways that users can react to content, spanning beyond the traditional reactions of likes, dislikes, and comments. This ensures that trending content, as opposed to individual users, is at the forefront of user feeds. Due to their rapid growth and digital nature of their core product, the amount of data that they create, collect and must analyze is huge. Social Buzz want to analyse their content categories that highlights the top 5 categories with the largest aggregate popularity.
 ## Data Sources
-1. Content [Download here](https://drive.google.com/file/d/1ucz9dYMgEQIAwj0FMtteR-Pg7Opynj0i/view?usp=drive_link)
-2. Reactions [Download here](https://drive.google.com/file/d/1bmJ6ijaXziqefYQTM0T0TcTSJGk2zKUH/view?usp=drive_link)
+1. Content [Download here](https://drive.google.com/file/d/1qt1tNEDKEagPMpx4ZkSERqFpZe--8a0c/view?usp=sharing)
+2. Reactions [Download here](https://drive.google.com/file/d/17c5wUTbOIbhFvxARhLeUTJjJo2HXrRpX/view?usp=sharing)
 3. Reaction Type [Download here](https://drive.google.com/file/d/133qWNsWlLCDslnAfNk90Yz1iXp0VQx_2/view?usp=drive_link)
 ## Tool
 1. Excel- Data Cleaning
